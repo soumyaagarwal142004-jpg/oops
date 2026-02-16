@@ -1,0 +1,5 @@
+public static void main()
+class printing()
+{
+	system.out.printin("OOPS");
+}
