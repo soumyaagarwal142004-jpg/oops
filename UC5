@@ -1,0 +1,26 @@
+public class BannerUC5 {
+    public static void main(String[] args) {
+
+        String[] banner = {
+            String.join("", "*", "*", "*", "*", "*", "*", "*"),
+            String.join("", "*", " ", " ", " ", " ", " ", "*"),
+            String.join("", "*", " ", "*", "*", "*", " ", "*"),
+            String.join("", "*", " ", "*", "*", "*", " ", "*"),
+            String.join("", "*", " ", " ", " ", " ", " ", "*"),
+            String.join("", "*", "*", "*", "*", "*", "*", "*"),
+            String.join("", " ", " ", "UC5 Banner", " ", " ")
+        };
+
+        // Enhanced for loop
+        for (String line : banner) {
+            System.out.println(line);
+        }
+    }
+}
+*******
+*     *
+* *** *
+* *** *
+*     *
+*******
+  UC5 Banner
