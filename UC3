@@ -1,0 +1,19 @@
+public class OOPSBannerUC3 {
+
+    public static void main(String[] args) {
+
+        String space = "   ";
+
+        System.out.println(String.join(space, " OOO ", " OOO ", "PPPP ", " SSSS "));
+        System.out.println(String.join(space, "O   O", "O   O", "P   P", "S     "));
+        System.out.println(String.join(space, "O   O", "O   O", "PPPP ", " SSS  "));
+        System.out.println(String.join(space, "O   O", "O   O", "P    ", "    S "));
+        System.out.println(String.join(space, " OOO ", " OOO ", "P    ", "SSSS  "));
+    }
+}
+ OOO     OOO     PPPP     SSSS
+O   O   O   O   P   P    S
+O   O   O   O   PPPP      SSS
+O   O   O   O   P             S
+ OOO     OOO    P         SSSS
+ 
